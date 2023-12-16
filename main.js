@@ -11,7 +11,7 @@ let mineCapacity = 800000; // in case this ever needs to be raised
 let canMine = false;
 let lastDirection = "";
 let pickaxes = [
-    ["Basic Pickaxe", false],
+    ["Basic Pickaxe", true],
     ["Advanced Pickaxe", false],
     ["DynAxe", false],
     ["X-Axe", false],
@@ -19,10 +19,10 @@ let pickaxes = [
     ["Name5", false],
     ["Name6", false],
     ["Name7", false],
-    ["Name8", true]
+    ["Name8", false]
 ];
 let gears = [true, true, true];
-let currentPickaxe = 0;
+let currentPickaxe = 8;
 let oreList = {
     "🐱" : [1/Infinity, [0,0,0,0]],
     "🌳" : [1/9250000000, [0,0,0,0]],
